@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
+    "copy-webpack-plugin": "^5.1.1",
     "request": "^2.81.0"
   }
 }
