@@ -31,6 +31,10 @@ response = document.createElement("pre");
 response.id = "response";
 response.innerText = "";
 
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
+
 
 function initMap(): void {
   map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
