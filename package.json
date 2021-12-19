@@ -8,6 +8,9 @@
     "maps",
     "samples"
   ],
+  "engines":{
+    "node": "14.x"
+  },
   "homepage": "https://github.com/googlemaps/js-samples#readme",
   "bugs": {
     "url": "https://github.com/googlemaps/js-samples/issues"
