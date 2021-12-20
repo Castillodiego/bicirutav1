@@ -47,7 +47,7 @@ function initMap(): void {
   const inputText = document.createElement("input");
 
   inputText.type = "text";
-  inputText.placeholder = "Enter a location";
+  inputText.placeholder = "Ingrese dirección";
 
   const submitButton = document.createElement("input");
 
@@ -74,7 +74,7 @@ function initMap(): void {
   instructionsElement.id = "instructions";
 
   instructionsElement.innerHTML =
-    "<strong>Bici Ruta</strong>: Ingrese dirección dónde quiere ir";
+    "<strong>Bici Ruta</strong>: Rutas para moverse seguro en bicileta <p style='font-size:12px;'> *Prototipo te hace partir desde plaza ñuñoa </p> <p style='font-size:10px;'> **click derecho -> inspeccionar -> consola para ver tiempos de ruta </p>";
 
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(inputText);
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(submitButton);
